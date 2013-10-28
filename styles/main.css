@@ -1,0 +1,144 @@
+body {
+  background: #f0f0ef;
+}
+body, div, section, article, h1, h2, h3, h4, input, button, b {
+  margin: 0;
+  padding: 0;
+  font-family: 'mathleteskinny';
+  font-size: 40px;
+  font-weight: normal;
+}
+
+input, button {
+  border-radius: 6px;
+  border: none;
+  text-align: center;
+  height: 50px;
+}
+
+button {
+  background: #ff6193;
+  color: white;
+  padding: 0 14px;
+}
+  button:hover {
+    background: #ff84ab;
+    cursor: pointer;
+  }
+
+a {
+  text-decoration: none;
+}
+
+.sign-up {
+  background: #FF75A1 url(../images/background.jpg) top center;
+  background-size: 1280px 589px;
+  height: 499px;
+  padding-top: 90px;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+  .sign-up h1,
+  .sign-up h2 {
+    position: relative;
+    z-index: 1;
+  }
+  .sign-up h1 {
+    background-image: url(../images/logo.png);
+    background-size: 458px 93px;
+    width: 458px;
+    height: 93px;
+    display: inline-block;
+    color: rgba(0,0,0,0);
+  }
+  .sign-up h2 {
+    font-size: 54px;
+  }
+    .sign-up h2 b {
+      color: #BA2B5B;
+      font-weight: bold;
+    }
+
+  .sign-up img {
+    position: absolute;
+    left: 50%;
+    margin-left: -431px;
+    top: 60px;
+  }
+
+  .sign-up form {
+    padding: 20px 0 14px;
+    font-size: 46px;
+    position: relative;
+    top: 135px;
+  }
+    .sign-up label,
+    .sign-up input,
+    .sign-up button {
+      position: relative;
+      z-index: 1;
+    }
+    .sign-up form:before {
+      content: "";
+      position: absolute;
+      width: auto;
+      height: 100%;
+      top: 0;
+      right: 50%;
+      margin-right: -408px;
+      background: #BA2B5B;
+      width: 100%;
+      z-index: 0;
+    }
+    .sign-up form:after {
+      content: "";
+      position: absolute;
+      background: url('../images/arrow.png') no-repeat;
+      background-size: 74px 84px;
+      width: 74px;
+      height: 84px;
+      top: 0;
+      right: 50%;
+      margin-right: -482px;
+    }
+    .sign-up input {
+      margin-left: 18px;
+    }
+    .sign-up input,
+    .sign-up button {
+      position: relative;
+      top: -3px;
+    }
+
+.social-links {
+  text-align: center;
+  background: white;
+  height: 50px;
+  padding: 20px 0;
+}
+  .social-links a {
+    margin: 0 5px;
+    color: rgba(0,0,0,0);
+    background: url(../images/social-icons.png);
+    background-size: 148px 48px;
+    display: inline-block;
+    height: 48px;
+    width: 48px;
+  }
+    .social-links a:hover {
+      opacity: 0.9;
+    }
+    .social-links .facebook {
+      background-position: -198px 0;
+    }
+    .social-links .pinterest {
+      background-position: -100px 0;
+    }
+
+footer {
+  font-size: 30px;
+  color: silver;
+  text-align: center;
+  padding: 20px 0;
+}
